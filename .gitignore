@@ -1,0 +1,44 @@
+# === Rust (rust-compressor) ===
+/rust-compressor/target/
+**/*.rs.bk
+**/*.rmeta
+**/*.dSYM
+/Cargo.lock
+
+# === JavaScript/Node (js-compressor) ===
+/js-compressor/node_modules/
+js-compressor/package-lock.json
+
+# === Docker-related ===
+**/Dockerfile
+docker-compose.yml
+*.tar
+*.img
+
+# === Logs and temp ===
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === GitHub Workflows Cache ===
+.github/
+
+# === Test output (if any) ===
+*.compressed
+*.decompressed
+coverage/
+test-output/
+dist/
+
+# === Bash scripts output ===
+*.out
+*.pid
+
+# === Misc ===
+*.env
