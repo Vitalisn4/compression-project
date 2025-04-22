@@ -1,8 +1,8 @@
-#  Compression Project
+##  Compression Project
 
-A high-performance file compression tool implementing Run-Length Encoding (RLE) and LZ77 algorithms in both Rust and JavaScript, with intelligent algorithm selection and detailed performance metrics.
+A compression tool implementing Run-Length Encoding (RLE) and Simplified LZ77 algorithms in both Rust and JavaScript.
 
-## Project Structure
+### Project Structure
 
 ```
 compression-project/
